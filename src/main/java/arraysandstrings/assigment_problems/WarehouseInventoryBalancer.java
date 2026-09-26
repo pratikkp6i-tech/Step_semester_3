@@ -1,0 +1,39 @@
+package arraysandstrings.assigment_problems;
+
+public class WarehouseInventoryBalancer {
+
+    static void analyzeInventory(int[] sectionA, int[] sectionB) {
+        int totalA = 0, totalB = 0;
+        for (int v : sectionA) totalA += v;
+        for (int v : sectionB) totalB += v;
+
+        String status = (totalA == totalB) ? "Balanced" : "Not Balanced";
+
+        int maxVal = sectionA[0];
+        String maxSection = "Section A";
+        int maxIndex = 0;
+
+        for (int i = 0; i < sectionA.length; i++) {
+            if (sectionA[i] > maxVal) {
+                maxVal = sectionA[i];
+                maxSection = "Section A";
+                maxIndex = i;
+            }
+        }
+        for (int i = 0; i < sectionB.length; i++) {
+            if (sectionB[i] > maxVal) {
+                maxVal = sectionB[i];
+                maxSection = "Section B";
+                maxIndex = i;
+            }
+        }
+
+        System.out.println("Section A Total: " + totalA + " | Section B Total: " + totalB +
+                " | Status: " + status + " | Highest Quantity: " + maxVal +
+                " (" + maxSection + ", Item " + (maxIndex + 1) + ")");
+    }
+
+    public static void main(String[] args) {
+        analyzeInventory(new int[]{20, 15, 30}, new int[]{25, 10, 30});
+    }
+}
