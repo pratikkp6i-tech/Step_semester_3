@@ -1,3 +1,53 @@
+## Date: 10-10-2026 (Session 10 — Arrays & Algorithms, continued)
+
+**Today's Work:**
+
+- Solved 5 Category C problems: Exam Score Band Counter (binary search bounds), Class Attendance Tracker (single-pass streak tracking), Second-Best Score (single-pass two-variable tracking), Duty Roster Rotation (modular rotation for large k), and Busiest Bus Row (2D grid row-sum scan).
+- Pushed to feature/session_10, package `algorithms`.
+
+**Next Session Plan:**
+
+-
+
+**Issues Faced:**
+
+- None
+
+---
+
+## Date: 03-10-2026 (Session 9 — Abstraction & Interfaces)
+
+**Today's Work:**
+
+- Solved 5 Category C problems using abstract classes for shared behaviour (ticket pricing, parcel shipping charges, college fees, cab fares, appliance energy use) and interfaces with default methods for optional capabilities (insurance, bus usage, night service, saver mode).
+- Pushed to feature/session_9, package `abstraction`.
+
+**Next Session Plan:**
+
+-
+
+**Issues Faced:**
+
+- None
+
+---
+
+## Date: 26-09-2026 (Session 8 — Polymorphism)
+
+**Today's Work:**
+
+- Solved 5 Category C problems using an abstract base class per domain (customer, vehicle, room, employee, plan) with a type-to-instance map, so the main processing loop has no if-else type checks.
+- Pushed to feature/session_8, package `polymorphism`.
+
+**Next Session Plan:**
+
+-
+
+**Issues Faced:**
+
+- None
+
+---
 # Step_semester_3
 
 Daily progress log for STEP Semester 3 coursework, following the Main / Develop / Feature branch workflow.
