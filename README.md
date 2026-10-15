@@ -1,3 +1,17 @@
+## Date: DD-MM-YYYY (Practice Problems — Weeks 8, 9, 10)
+**Today's Work:**
+- Added a practice_problems section alongside assigment_problems in each of sessions 8, 9, and 10: payment/delivery/transport-style polymorphism drills for session 8, area/payroll/billing abstraction drills for session 9, and core-fundamentals drills (vowels, palindromes, primes, factorial, leap years, etc.) for session 10.
+- Each practice set also includes a QUIZ_AND_CONCEPT_ANSWERS.md with the multiple-choice and short-answer questions from the practice PDFs.
+- Pushed into the existing feature/session_8, feature/session_9, and feature/session_10 branches (no new branches created).
+
+**Next Session Plan:**
+- 
+
+**Issues Faced:**
+- The Delivery Fee Calculator (Week 8 practice, Problem 3) has a written business rule that doesn't reproduce its own worked example for EXPRESS and INTERNATIONAL deliveries — the sample output is 5 and 10 higher than the stated formula gives. Implemented to match the sample, with the discrepancy flagged in a code comment; worth asking the mentor which is authoritative.
+
+---
+
 ## Date: 10-10-2026 (Session 10 — Arrays & Algorithms, continued)
 
 **Today's Work:**
